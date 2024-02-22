@@ -72,7 +72,29 @@ export default function SignUp() {
                     <form className="felx flex-col gap-4">
                         <div>
                             <Label value='Your username' />
-                            {/* <TextInput/> */}
+                            <TextInput
+                                type="text"
+                                placeholder="username"
+                                id="username"
+                            />
+                        </div>
+
+                        <div>
+                            <Label value="Your email" />
+                            <TextInput
+                                type="email"
+                                placeholder="name@gmail.com"
+                                id="email"
+                            />
+                        </div>
+
+                        <div>
+                            <Label value='Your password' />
+                            <TextInput
+                                type='password'
+                                placeholder='Password'
+                                id='password'
+                            />
                         </div>
                     </form>
                 </div>
